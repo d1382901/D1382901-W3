@@ -1,0 +1,5 @@
+print("複製程式碼")
+a=int(input("請輸入一個十進制數字："))
+print('二進制：{:08b}'.format(a,'b'))
+print('八進制：{:03o}'.format(a,'o'))
+print('十六進制：{:02x}'.format(a,'x'))
