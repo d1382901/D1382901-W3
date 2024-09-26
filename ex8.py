@@ -4,9 +4,4 @@ c=(a%10000)//1000
 d=(a%1000)//100
 e=(a%100)//10
 f=a%10
-print("結果：")
-print(b)
-print(c)
-print(d)
-print(e)
-print(f)
+print("結果：",b,c,d,e,f,sep='\n')
